@@ -1,7 +1,11 @@
-streamlit
-geopy
-requests
-scikit-learn
+numpy
 pandas
+scikit-learn
+streamlit
+requests
+geopy
+openpyxl
 seaborn
 matplotlib
+folium
+streamlit-folium
