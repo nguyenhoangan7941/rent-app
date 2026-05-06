@@ -79,7 +79,7 @@ st.markdown("""
 
 # ===== LOAD MODEL =====
 model = pickle.load(open("model.pkl", "rb"))
-df_heat = pd.read_excel("/content/heatmap_data.xlsx")
+df_heat = pd.read_excel("heatmap_data.xlsx")
 
 # ===== API KEY =====
 API_KEY = "eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6IjM3NDA2ODBlMDljNDQ0NTliMjNhM2ZlMTQzZGQwZmY4IiwiaCI6Im11cm11cjY0In0="
